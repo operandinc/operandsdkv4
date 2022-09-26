@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,6 +31,9 @@
   "name": "operandsdkv4",
   "author": "Donwauchopex",
   "module": "dist/operandsdkv4.esm.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "devDependencies": {
     "husky": "^8.0.1",
     "tsdx": "^0.14.1",
